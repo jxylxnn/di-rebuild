@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop | Delta Iota Chapter</title>
+    <link rel="icon" type="image/png" href="assets/Site Files/DI Logo 2.PNG">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&family=Outfit:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <div id="app">
+        <header class="header scrolled">
+            <nav class="nav-container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/Site Files/DI Logo 2.PNG" alt="Delta Iota Logo">
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#brothers">Brothers</a></li>
+                    <li><a href="index.html#gallery">Gallery</a></li>
+                    <li><a href="index.html#resources">Resources</a></li>
+                    <li><a href="shop.html" class="active">Shop</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </header>
+
+        <main class="container">
+            <section class="shop-hero">
+                <span class="section-subtitle">Gear & Goods</span>
+                <h1 class="section-title">The Brotherhood Collection</h1>
+                <p class="section-description">Premium quality apparel and exclusive memorabilia for the Delta Iota
+                    Chapter.</p>
+            </section>
+
+            <div class="filter-container">
+                <button class="filter-btn active" data-filter="all">All Items</button>
+                <button class="filter-btn" data-filter="apparel">Apparel</button>
+                <button class="filter-btn" data-filter="accessories">Accessories</button>
+                <button class="filter-btn" data-filter="memorabilia">Memorabilia</button>
+            </div>
+
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card" data-category="apparel">
+                    <div class="product-badge">New Arrival</div>
+                    <div class="product-image">
+                        <img src="assets/Site Files/il_1588xN.6284183202_gye0.webp" alt="Chapter Hoodie">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Apparel</span>
+                        <h3 class="product-title">Official Chapter Hoodie</h3>
+                        <div class="product-footer">
+                            <span class="product-price">$55.00</span>
+                            <button class="add-to-cart" aria-label="Add to cart">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="12" y1="5" x2="12" y2="19"></line>
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card" data-category="accessories">
+                    <div class="product-image">
+                        <img src="assets/Site Files/il_600x600.6284186062_4st3.webp" alt="Brotherhood Hat">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Accessories</span>
+                        <h3 class="product-title">Brotherhood Dad Hat</h3>
+                        <div class="product-footer">
+                            <span class="product-price">$28.00</span>
+                            <button class="add-to-cart" aria-label="Add to cart">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="12" y1="5" x2="12" y2="19"></line>
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card" data-category="accessories">
+                    <div class="product-badge">Popular</div>
+                    <div class="product-image">
+                        <img src="assets/Site Files/il_600x600.6332235983_drx3.webp" alt="Chapter Pin">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Accessories</span>
+                        <h3 class="product-title">Delta Iota Crest Pin</h3>
+                        <div class="product-footer">
+                            <span class="product-price">$12.00</span>
+                            <button class="add-to-cart" aria-label="Add to cart">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="12" y1="5" x2="12" y2="19"></line>
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card" data-category="apparel">
+                    <div class="product-image">
+                        <img src="assets/Site Files/DI1.jpeg" alt="Chapter Tee">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Apparel</span>
+                        <h3 class="product-title">Vintage Shield Tee</h3>
+                        <div class="product-footer">
+                            <span class="product-price">$25.00</span>
+                            <button class="add-to-cart" aria-label="Add to cart">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="12" y1="5" x2="12" y2="19"></line>
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card" data-category="memorabilia">
+                    <div class="product-image">
+                        <img src="assets/Site Files/DI Logo 2.PNG" alt="Chapter Logo Art">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Memorabilia</span>
+                        <h3 class="product-title">Framed Chapter Crest</h3>
+                        <div class="product-footer">
+                            <span class="product-price">$45.00</span>
+                            <button class="add-to-cart" aria-label="Add to cart">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="12" y1="5" x2="12" y2="19"></line>
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card" data-category="memorabilia">
+                    <div class="product-image">
+                        <img src="assets/Site Files/DI2.jpeg" alt="Booklet">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Memorabilia</span>
+                        <h3 class="product-title">105 Ways Booklet (Print)</h3>
+                        <div class="product-footer">
+                            <span class="product-price">$15.00</span>
+                            <button class="add-to-cart" aria-label="Add to cart">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="12" y1="5" x2="12" y2="19"></line>
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-brand">
+                        <img src="assets/Site Files/DI Logo 2.PNG" alt="Logo">
+                        <p>Serving the highest in musical achievement.</p>
+                    </div>
+                    <div class="footer-links">
+                        <h4>Links</h4>
+                        <ul>
+                            <li><a href="index.html#home">Home</a></li>
+                            <li><a href="index.html#about">About</a></li>
+                            <li><a href="index.html#brothers">Brothers</a></li>
+                            <li><a href="index.html#gallery">Gallery</a></li>
+                            <li><a href="shop.html">Shop</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-social">
+                        <h4>Follow Us</h4>
+                        <div class="social-icons">
+                            <a href="#" aria-label="Instagram">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                </svg>
+                            </a>
+                            <a href="#" aria-label="Twitter">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+                                    </path>
+                                </svg>
+                            </a>
+                            <a href="#" aria-label="Facebook">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Delta Iota Chapter. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="assets/main.js"></script>
+    <script>
+        // Simple filter logic
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const products = document.querySelectorAll('.product-card');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Update buttons
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                const filter = btn.getAttribute('data-filter');
+
+                // Filter products with a nice GSAP animation
+                gsap.to(products, {
+                    duration: 0.3,
+                    opacity: 0,
+                    scale: 0.9,
+                    stagger: 0.05,
+                    onComplete: () => {
+                        products.forEach(product => {
+                            if (filter === 'all' || product.getAttribute('data-category') === filter) {
+                                product.style.display = 'block';
+                            } else {
+                                product.style.display = 'none';
+                            }
+                        });
+
+                        gsap.to(products, {
+                            duration: 0.4,
+                            opacity: 1,
+                            scale: 1,
+                            stagger: 0.05,
+                            ease: "back.out(1.7)"
+                        });
+                    }
+                });
+            });
+        });
+
+        // Initialize Shop animations
+        console.log("Shop.html: Initializing product animations");
+        gsap.from(".product-card", {
+            duration: 0.8,
+            y: 50,
+            opacity: 0,
+            stagger: 0.1,
+            ease: "power3.out",
+            scrollTrigger: {
+                trigger: ".product-grid",
+                start: "top 80%",
+                onEnter: () => console.log("Shop.html: Product grid entered viewport")
+            },
+            onComplete: () => {
+                console.log("Shop.html: Product animation complete");
+            }
+        });
+    </script>
+</body>
+
+</html>
